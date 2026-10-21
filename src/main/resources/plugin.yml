@@ -1,0 +1,15 @@
+name: EarbudsPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that adds earbuds to Minecraft
+api-version: "1.21"
+commands:
+  earbuds:
+    description: Manage earbuds
+    usage: /earbuds <play|stop|insert|remove>
+    permission: earbuds.use
+permissions:
+  earbuds.use:
+    description: Allows the use of earbuds commands
+    default: true
